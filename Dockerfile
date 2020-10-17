@@ -1,4 +1,4 @@
 FROM ubuntu:latest
-RUN apt-get update & apt-gel install -y \
+RUN apt-get update & apt-get install -y \
     curl \
     nginx  
