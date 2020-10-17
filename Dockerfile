@@ -1,3 +1,4 @@
 FROM ubuntu:latest
-# サンプルtestファイルを作成
-RUN touch test
+RUN apt-get update & apt-gel install -y \
+    curl \
+    nginx  
